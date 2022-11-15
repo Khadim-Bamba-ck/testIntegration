@@ -1,0 +1,28 @@
+.mt-5, .my-5 {
+    margin-top: 9rem!important;
+}
+
+fieldset {
+	background-color: rgba(130, 152, 231, 0.3);
+	border-radius: 4px;
+}
+
+legend {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	color:red;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 3px 5px 3px 7px;
+	width: auto;
+}
+.submit1{
+    position: relative;
+    top: -46px;
+    right: -436px;
+}
+.bouttons{
+    position: relative;
+    right: -160px;
+}

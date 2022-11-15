@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Test integration </title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/sticky-footer-navbar/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap\css\style.css">
+
+
+
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.6/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.6/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.6/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.6/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.6/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.6/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.6/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Fixed navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container mt-5">
+
+ 
+    <form >
+        <div class='row'>
+        <div class="col-6">
+        <fieldset>
+            <legend style="right: -14px;position: relative;"> <i class='fas fa-user-edit'></i></legend>
+            <h7 style="position: relative;right: -15px;">Inscrivez-vous</h7>
+        <div class="form-group col-md-12">
+                <input type="text" class="form-control" id="exampleInputText" placeholder="Nom complet" required>
+        </div>
+        <div class="form-group col-md-12">
+          <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse email" required>
+          
+        </div>
+        <div class="form-group col-md-12">
+          <input type="password"  name="password" class="form-control"  placeholder="Mot de passe" id="id_password" ><i class="far fa-eye" id="togglePassword"  style="margin-left: 480px;cursor: pointer; position: relative;top: -31px;"></i>
+          <div><small id="emailHelp" class="form-text text-muted"></small></div>
+        </div>
+        <div class="form-group col-md-12">
+          <input type="password" class="form-control " id="id_passwordConfirm" placeholder="Confirmer de mot de passe" required><i class="far fa-eye" id="togglePasswordConfirm" style="margin-left: 480px;cursor: pointer; position: relative;top: -31px;"></i>
+        </div>
+        <div class="form-group form-check" style="right: -28px;">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+        </div>
+        <button type="button" class="btn btn-dark submit1" id="btnSubmit">S'inscrire</button>
+
+        <div class="form-group bouttons">
+            <button type="button" class="btn btn" style="background-color:#1877f2; color: white;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+</svg>
+                S'inscrire avec facebook
+              </button><br><br>
+              <button type="button" class="btn btn-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+  <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"></path>
+</svg>
+                S'inscrire avec GOOGLE
+              </button>
+        </div>
+        </fieldset>
+    </div>
+    <div class="col-6">
+        <img src="bootstrap/photo/logo.png"  style="width: 100%;top: 25px;position: relative;">
+    </div>
+        </div>
+      </form>
+
+      <div>
+        <img src="bootstrap/photo/futurDigital.jfif" alt="" srcset="" style="position: relative;right: -500px;top: 50px;width: 20%;">
+      </div>
+  </div>
+</main>
+
+<script src="bootstrap/js/jquery.slim.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+
+    const togglePassword = document.querySelector('#togglePassword');
+    const togglePasswordConfirm = document.querySelector('#togglePasswordConfirm');
+  const password = document.querySelector('#id_password');
+  const passwordConfirm = document.querySelector('#id_passwordConfirm');
+ 
+
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    if(type === 'password'){
+        password.setAttribute('type',type);
+        this.classList.remove('fa-eye');
+        this.classList.add('fa-eye-slash');
+    }else{
+        password.setAttribute('type',type);
+        this.classList.remove('fa-eye-slash');
+        this.classList.add('fa-eye');
+
+    }
+   
+});
+  togglePasswordConfirm.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = passwordConfirm.getAttribute('type') === 'password' ? 'text' : 'password';
+
+    if(type === 'password'){
+        passwordConfirm.setAttribute('type',type);
+        this.classList.remove('fa-eye');
+        this.classList.add('fa-eye-slash');
+    }else{
+        passwordConfirm.setAttribute('type',type);
+        this.classList.remove('fa-eye-slash');
+        this.classList.add('fa-eye');
+
+    }
+   
+   
+    });
+   </script>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+
+    
+    $(function () {
+
+      
+        $("#btnSubmit").click(function () {
+          //recuperation de la valeur du mot de passe
+          var password = $("#id_password").val(); 
+          //verifier si le mot de passe contient une letter alphanumerique   
+              if (!/(?=.[$#%£&§@])/.test(password)) {
+              return  $("#emailHelp").html("<small id='emailHelp' class='form-text text-muted' style='color:red;'>Le mot de passe doit contenir minimun 10 caractere dont 1 caractere special</small>");
+              
+               
+              }
+               //recuperation de la valeur du mot de passe de confirmation
+            var confirmPassword = $("#id_passwordConfirm").val();
+            if (password != confirmPassword) {
+                alert("les mots de pass ne correspondent pas !.");
+                return false;
+            }
+            alert("Success!");
+        });
+    });
+    
+    
+   
+   
+</script>
+
+    
+      
+  </body>
+</html>
